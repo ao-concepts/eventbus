@@ -17,12 +17,6 @@ If you are interested in contributing to this project, feel free to open a issue
 go get -u github.com/ao-concepts/eventbus
 ```
 
-## Todo
-
-*   write tests
-*   write docs
-*   publish package
-
 ## Usage
 
 A event name consists of a set of markers. All markers are separated by colons (e.g. `user:profile:update`).
