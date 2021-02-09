@@ -1,7 +1,7 @@
 # ao-concepts eventbus module
 
 ![CI](https://github.com/ao-concepts/eventbus/workflows/CI/badge.svg)
-[![codecov](https://codecov.io/gh/ao-concepts/eventbus/branch/master/graph/badge.svg?token=AQVUZTRGQS)](https://codecov.io/gh/ao-concepts/eventbus)
+[![codecov](https://codecov.io/gh/ao-concepts/eventbus/branch/main/graph/badge.svg?token=AQVUZTRGQS)](https://codecov.io/gh/ao-concepts/eventbus)
 
 This module provides a eventbus for application internal use with optional persistence. The eventbus uses a tree structure for efficient routing.
 
