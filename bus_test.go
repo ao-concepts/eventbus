@@ -43,9 +43,6 @@ func TestBus_Subscribe(t *testing.T) {
 
 func TestBus_Publish_NonPersistent(t *testing.T) {
 	assert := assert.New(t)
-	// log := logging.New(logging.Debug, nil)
-	// c, err := storage.New(sqlite.Open(":memory:"), log)
-	// assert.Nil(err)
 	bus := eventbus.New(nil, false)
 
 	ch := make(chan eventbus.Event)
